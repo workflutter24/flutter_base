@@ -1,0 +1,24 @@
+name: flutter_base
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  provider:
+  dio:
+  http:
+  shared_preferences:
+  flutter_local_notifications:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  json_serializable:
+
+flutter:
+  uses-material-design: true
